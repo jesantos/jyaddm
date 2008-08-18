@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head><title>yet another drop down menu</title>
+		<link rel="STYLESHEET" href="style/default.css" type="text/css" />
+		<script src="js/jquery-1.2.6.js" type="text/javascript"></script>
+		<script src="js/jquery-jyaddm.js" type="text/javascript"></script>
+		<script type="text/javascript">			
+			$(document).ready(function (){
+				$(".menu").jyaddm();
+			});						
+			
+			$(document).ready(function (){
+				$("li").click(function(){
+					alert($(this).text());
+				});
+			});						
+			
+			
+		</script>
+	</head>
+	<body>
+		<h1>yet another drop down menu (using jquery)</h1>		
+			<div class="menu">
+			<div for="estados" class="parent">Estados</div>
+				<ul id="estados" class="child">			
+					<li><input type="text" class="selector" /></li>
+					<li>Aguascalientes</li> 
+					<li>Baja California</li> 
+					<li>Baja California Sur</li> 
+					<li>Campeche</li> 
+					<li>Chiapas</li> 
+					<li>Chihuahua</li> 
+					<li>Coahuila</li> 
+					<li>Colima</li> 
+					<li>Distrito Federal</li>
+					<li>Durango</li> 
+					<li>Guanajuato</li> 
+					<li>Guerrero</li> 
+					<li>Hidalgo</li> 
+					<li>Jalisco</li> 
+					<li>Estado de México</li> 
+					<li>Michoacán</li> 
+					<li>Morelos</li> 
+					<li>Nayarit</li> 
+					<li>Nuevo León</li> 
+					<li>Oaxaca</li> 
+					<li>Puebla</li> 
+					<li>Querétaro</li> 
+					<li>Quintana Roo</li> 
+					<li>San Luis Potosí</li> 
+					<li>Sinaloa</li> 
+					<li>Sonora</li> 
+					<li>Tabasco</li> 
+					<li>Tamaulipas</li> 
+					<li>Tlaxcala</li> 
+					<li>Veracruz</li> 
+					<li>Yucatán</li> 
+					<li>Zacatecas</li>				
+				</ul>
+			</div>
+				<div class="menu">
+				<div for="estados2" class="parent">Estados</div>				
+				<ul id="estados2" class="child">			
+					<li><input type="text" class="selector" /></li>
+					<li>Aguascalientes2</li> 
+					<li>Baja California2</li> 
+					<li>Baja California Sur2</li> 
+					<li>Campeche2</li> 
+					<li>Chiapas2</li> 
+					<li>Chihuahua2</li> 
+					<li>Coahuila2</li> 
+					<li>Colima2</li> 
+					<li>Distrito Federal2</li>
+					<li>Durango2</li> 
+					<li>Guanajuato2</li> 
+					<li>Guerrero2</li> 
+					<li>Hidalgo2</li> 
+					<li>Jalisco2</li> 
+					<li>Estado de México</li> 
+					<li>Michoacán</li> 
+					<li>Morelos</li> 
+					<li>Nayarit</li> 
+					<li>Nuevo León</li> 
+					<li>Oaxaca</li> 
+					<li>Puebla</li> 
+					<li>Querétaro</li> 
+					<li>Quintana Roo</li> 
+					<li>San Luis Potosí</li> 
+					<li>Sinaloa</li> 
+					<li>Sonora</li> 
+					<li>Tabasco</li> 
+					<li>Tamaulipas</li> 
+					<li>Tlaxcala</li> 
+					<li>Veracruz</li> 
+					<li>Yucatán</li> 
+					<li>Zacatecas</li>				
+				</ul>
+				</div>
+		
+		<div>
+		&nbsp;
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam scelerisque imperdiet nunc. Sed vitae massa at velit dignissim dapibus. Sed in dolor id nulla feugiat porta. Nam eget eros. Maecenas dictum sollicitudin nunc. Nullam sagittis. Nunc congue sodales odio. Sed ac sapien. Donec gravida massa sit amet quam. Nulla nec enim. Etiam nulla libero, ultricies sit amet, consequat et, tempor eu, lorem. Fusce commodo. Nam fringilla. Quisque sodales. Morbi urna. Etiam adipiscing, sem et feugiat bibendum, libero velit ornare sapien, quis condimentum nisi quam eget odio. Etiam vitae ipsum. Nullam id dui. Nam augue.</p>
+
+<p>In congue. Nulla facilisi. Sed dolor. Vivamus adipiscing ullamcorper est. Pellentesque eu mi vitae nisl tempor elementum. Vestibulum libero. Nunc dolor nulla, luctus eget, pulvinar nec, dictum id, tortor. Donec dignissim vehicula arcu. Cras sit amet magna sit amet risus hendrerit pharetra. Mauris fringilla. Vivamus luctus elementum felis. Nullam fermentum, nisl non porta laoreet, elit felis posuere felis, sed sagittis diam nunc eget enim. Quisque iaculis mattis ligula. Phasellus tincidunt gravida lectus.</p>
+
+<p>Sed sit amet lorem. Sed ac odio nec lectus feugiat malesuada. Praesent tellus libero, auctor a, suscipit eget, iaculis non, nulla. Donec iaculis, dolor vitae suscipit ultricies, dolor orci volutpat odio, in ullamcorper odio nulla ac augue. Duis convallis tortor quis libero. Nullam aliquam dictum tellus. Curabitur placerat dolor in eros. Quisque tellus eros, pretium quis, fermentum vitae, blandit eget, justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc sodales ultrices nisi. Nam sodales tempor lacus. Integer sagittis fermentum risus. Duis iaculis, odio vel aliquet imperdiet, lectus tellus malesuada ligula, vitae sodales est arcu ut erat. Curabitur mi. Nulla quam libero, imperdiet sit amet, blandit eget, luctus sit amet, ipsum. Ut a metus. Phasellus convallis porttitor turpis. Aliquam et eros. Etiam mollis. </p>
+		</div>
+	</body>
+</html>

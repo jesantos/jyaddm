@@ -1,0 +1,59 @@
+body {
+	font-family: Helvetica, Arial; 
+}
+
+h1 {
+	font-size: .90em;
+}
+
+.menu {
+	float:left;
+	width:150px;
+	background-color: #fff;
+	
+}
+
+.parent {
+	font-family: Georgia;
+	text-align: center;
+	font-size: .76em;
+	cursor: pointer;	
+	background-color: #81a1c7;
+	color: #fff;
+	padding: 2px 2px;
+	position: relative;
+}
+
+.child {
+	padding: 2px 3px;
+	margin: 0px 0px 0px 0px ;
+	width:142px;
+	background-color: #fff;
+	position: absolute;
+	border-left: solid 1px #81a1c7;
+	border-right: solid 1px #81a1c7;
+	border-bottom: solid 1px #81a1c7;
+}
+
+.child  li{
+	list-style: none;
+	font-size: .65em;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-bottom: dotted 1px #bbb;
+	cursor: pointer;
+}
+
+.child li:hover{
+	background-color:#ccc;
+}
+
+.menu input {
+	border: solid 1px #fff;
+	width:135px;
+	font-size: 1em;
+}
+
+.selected{
+	background-color:#ccc;
+}
